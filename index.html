@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Project ISCG</title>
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/main.min.css">
+
+	<!-- Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+</head>
+<body>
+
+	<!-- Navbar -->
+
+	<div class="topbar" data-aos="fade-down" data-aos-delay="3000">
+
+		<a href="/"><div class="logo"></div></a>
+
+		<div class="icons">
+			<a class="icon discord-icon" href="https://discord.gg/9U3xgCbBeE" target="_blank"></a>
+			<a class="icon youtube-icon" href="https://youtube.com/channel/UCBVyKmp6fG2PYd8v9kAgHFA" target="_blank"></a>
+			<a class="icon facebook-icon" href="#" target="_blank"></a>
+		</div>
+
+	</div>
+
+	<!-- Header -->
+	
+	<header>
+
+		<div class="header-background parallax"></div>
+
+		<div class="title">Welcome to Project ISCG</div>
+
+	</header>
+
+	<!-- Main -->
+
+	<main>
+
+		<nav>
+			<a class="nav-button" onclick="switchScene('home')">Home</a>
+			<a class="nav-button" onclick="switchScene('gallery')">Galeria</a>
+			<a class="nav-button" onclick="switchScene('administration')">Administratorzy</a>
+			<a class="nav-button disabled">Mapa</a>
+		</nav>
+
+		<section>
+			<div id="section-bg" class="animate__animated animate__fadeInRight"></div>
+		</section>
+
+		<section id="home" class="home animate__animated animate__fadeInRight">
+
+			<div class="hero-left">
+				<div class="description">
+					<div class="desc-title">
+						Kim jesteśmy, czym się zajmujemy?
+					</div>
+					<div class="desc-content">
+						Project ISCG to projekt non-profit, w którym pasjonaci budowania w Minecraft, budują wielkie miasto. Dzięki wykorzystaniu wszystkich bloków z gry, możemy stworzyć realistyczne miasto bez wykorzystywania modów lub skryptów. Pozwala to na dołączenie do ekipy osób ze słabszym sprzętem.
+					</div>
+				</div>
+			</div>
+
+			<div class="hero-right">
+				<div class="server-desc">
+					<div class="server-logo"></div>
+					<div class="server-content"></div>
+				</div>
+			</div>
+
+		</section>
+		<section id="gallery" class="gallery hidden animate__animated">
+				<div class="image" style="background: url('images/gallery-1.png');"></div>
+				<div class="image" style="background: url('images/gallery-2.png');"></div>
+				<div class="image" style="background: url('images/gallery-3.png');"></div>
+				<div class="image" style="background: url('images/gallery-4.png');"></div>
+				<div class="image" style="background: url('images/gallery-5.png');"></div>
+				<div class="image" style="background: url('images/gallery-6.png');"></div>
+				<div class="image" style="background: url('images/gallery-7.png');"></div>
+				<div class="image" style="background: url('images/gallery-8.png');"></div>
+				<div class="image" style="background: url('images/gallery-9.png');"></div>
+				<div class="image" style="background: url('images/gallery-10.png');"></div>
+				<div class="image" style="background: url('images/gallery-11.png');"></div>
+				<div class="image" style="background: url('images/gallery-12.png');"></div>
+		</section>
+		<section id="administration" class="administration hidden animate__animated">
+			<div class="administrator-left"></div>
+			<div class="administrator-right"></div>
+			<div class="administration-content">
+				<div class="admin-desc-left">
+					<div class="admin-desc-title">Szyszek</div>
+					<div class="admin-desc-content">
+						Gram w Minecrafta od 7 roku życia.
+						Buduje tak naprawdę niedługo, bo od czerwca 2020 roku, ale jest to dla mnie wielka frajda i przyjemność.
+						Zaczynałem od budowania na bardzo małych serwerach, tworzyłem spawny, areny itp.
+						Od pierwszego grudnia 2020 roku tworzę razem z Chrzesciateistą Project ISCG, zaczynaliśmy we dwójkę, a późnej ekipa stała się znacznie większa.
+						Czasami w przerwach od Minecrafta gram w Valoranta, Geoguesser'a lub nieraz w Need For Speed'a. Pozdrawiam oraz zachęcam do dołączenia.</div>
+				</div>
+				<div class="admin-desc-right">
+					<div class="admin-desc-title">Chrześciateista</div>
+					<div class="admin-desc-content">
+						Jestem dość typowym budowniczym w Minecraft, nie jest to moja pasja jednak robię to z przyjemnością, szczególnie pracując w takim projekcie jak ISCG.
+						W Minecraft'a gram od 8 roku życia. Swojego czasu grałem bardzo długo na survivalu, jednak od 2020 roku zacząłem nałogowo przesiadywać na creative'ie.
+						Oprócz tego grywam w szachy, nfs'a Payback, Valoranta czy też Geoguessr'a. Pozdrawiam wszystkich czytelników i zapraszam do dołączenia do projektu.
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="map" class="map hidden animate__animated">
+			Hejo, it's me. Map!
+		</section>
+
+	</main>
+
+	<!-- Footer -->
+
+	<footer>
+
+		<div class="footer-icons">
+			<a class="icon discord-icon" href="https://discord.gg/9U3xgCbBeE" target="_blank"></a>
+			<a class="icon youtube-icon" href="https://youtube.com/channel/UCBVyKmp6fG2PYd8v9kAgHFA" target="_blank"></a>
+			<a class="icon facebook-icon" href="#" target="_blank"></a>
+		</div>
+
+		<div class="author">Made by Foxyg3n</div>
+
+		<div class="copyright">&copy; 2021 Project ISCG. All rights reserved</div>
+
+	</footer>
+
+	<!-- JavaScript -->
+	<script src="js/parallax.js"></script>
+	<script src="js/navbar.js"></script>
+	<script>
+	window.onbeforeunload = function () {
+		window.scrollTo(0, 0);
+	}
+	</script>
+
+<script>
+	AOS.init();
+</script>
+
+</body>
+</html>
