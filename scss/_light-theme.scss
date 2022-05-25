@@ -1,0 +1,39 @@
+
+.light-theme {
+
+
+
+/* HEADER */
+
+header {
+  background: url("../images/header-background-light.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  background: $primary-color-light;
+  color: $secondary-color-light;
+}
+
+#btn_change_theme {
+  background-position: 0px;
+}
+
+.fa-moon {
+  left: calc(calc(50% - 25px) - 100%);
+}
+
+.fa-sun {
+  left: calc(50% - 25px);
+}
+
+/* MAIN BODY */
+
+.projects {
+  background-color: #424c7d; /* temp */
+}
+
+
+
+} /* end */
